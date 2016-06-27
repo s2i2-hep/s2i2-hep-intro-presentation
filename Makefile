@@ -1,4 +1,4 @@
-tex: hsf-orsay uscms-s2i2 lhcbcomp gdbob infn-ict wlcg-mb cms-mgmt
+tex: hsf-orsay uscms-s2i2 lhcbcomp gdbob infn-ict wlcg-mb cms-mgmt atlas-week
 
 clean:
 	rm -fR 20160502-hsf-community-whitepaper.{aux,snm,log,nav,toc,out,pdf}
@@ -9,6 +9,11 @@ clean:
 	rm -fR 20160610-infn-s2i2-hsf-cwp-diana.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20160621-wlcg-mb-s2i2-hsf-cwp.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20160627-cms-mgmt-s2i2-hsf-cwp-diana.{aux,snm,log,nav,toc,out,pdf}
+	rm -fR 20160629-atlas-week-s2i2.{aux,snm,log,nav,toc,out,pdf}
+
+atlas-week:
+	pdflatex 20160629-atlas-week-s2i2.tex
+	pdflatex 20160629-atlas-week-s2i2.tex
 
 cms-mgmt:
 	pdflatex 20160627-cms-mgmt-s2i2-hsf-cwp-diana.tex
