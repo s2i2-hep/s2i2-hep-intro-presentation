@@ -10,7 +10,7 @@ clean:
 	rm -fR 20160621-wlcg-mb-s2i2-hsf-cwp.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20160627-cms-mgmt-s2i2-hsf-cwp-diana.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20160629-atlas-week-s2i2.{aux,snm,log,nav,toc,out,pdf}
-	rm -fR 20160803-atlas-tim.{aux,snm,log,nav,toc,out,pdf}
+	rm -fR 20160803-atlas-tim.{aux,snm,log,nav,toc,out,pdf,vrb}
 
 atlas-tim:
 	pdflatex 20160803-atlas-tim.tex
