@@ -11,6 +11,11 @@ clean:
 	rm -fR 20160627-cms-mgmt-s2i2-hsf-cwp-diana.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20160629-atlas-week-s2i2.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20160803-atlas-tim.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20160909-rdms-cms-software-upgrade.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+rdms-cms:
+	pdflatex 20160909-rdms-cms-software-upgrade.tex
+	pdflatex 20160909-rdms-cms-software-upgrade.tex
 
 atlas-tim:
 	pdflatex 20160803-atlas-tim.tex
