@@ -12,6 +12,11 @@ clean:
 	rm -fR 20160629-atlas-week-s2i2.{aux,snm,log,nav,toc,out,pdf}
 	rm -fR 20160803-atlas-tim.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20160909-rdms-cms-software-upgrade.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20161009-wlcg-pre-chep-cwp.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+wlcg-pre-chep:
+	pdflatex 20161009-wlcg-pre-chep-cwp.tex
+	pdflatex 20161009-wlcg-pre-chep-cwp.tex
 
 rdms-cms:
 	pdflatex 20160909-rdms-cms-software-upgrade.tex
