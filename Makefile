@@ -14,6 +14,11 @@ clean:
 	rm -fR 20160909-rdms-cms-software-upgrade.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20161009-wlcg-pre-chep-cwp.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20161011-chep-cwp-plenary.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20161110-cms-offline-computing.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+cms-fall2016-oc:
+	pdflatex 20161110-cms-offline-computing.tex
+	pdflatex 20161110-cms-offline-computing.tex
 
 chep-cwp:
 	pdflatex 20161011-chep-cwp-plenary.tex
