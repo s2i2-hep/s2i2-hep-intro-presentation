@@ -15,6 +15,11 @@ clean:
 	rm -fR 20161009-wlcg-pre-chep-cwp.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20161011-chep-cwp-plenary.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20161110-cms-offline-computing.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20161207-s2i2-hep-cs-uiuc.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+s2i2-hep-cs:
+	pdflatex 20161207-s2i2-hep-cs-uiuc.tex
+	pdflatex 20161207-s2i2-hep-cs-uiuc.tex
 
 cms-fall2016-oc:
 	pdflatex 20161110-cms-offline-computing.tex
