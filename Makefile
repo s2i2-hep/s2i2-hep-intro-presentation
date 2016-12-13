@@ -16,6 +16,11 @@ clean:
 	rm -fR 20161011-chep-cwp-plenary.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20161110-cms-offline-computing.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20161207-s2i2-hep-cs-uiuc.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20161213-cms-vilnius.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+cms-vilnius:
+	pdflatex 20161213-cms-vilnius.tex
+	pdflatex 20161213-cms-vilnius.tex
 
 s2i2-hep-cs:
 	pdflatex 20161207-s2i2-hep-cs-uiuc.tex
