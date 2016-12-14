@@ -21,8 +21,8 @@ clean:
 
 
 gdb-dec2016:
-	pdflatex 20161213-gdb-dec2016.tex
-	pdflatex 20161213-gdb-dec2016.tex
+	pdflatex 20161214-gdb-dec2016.tex
+	pdflatex 20161214-gdb-dec2016.tex
 
 cms-vilnius:
 	pdflatex 20161213-cms-vilnius.tex
