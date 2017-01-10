@@ -18,6 +18,11 @@ clean:
 	rm -fR 20161207-s2i2-hep-cs-uiuc.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20161213-cms-vilnius.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20161214-gdb-dec2016.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20170110-s2i2-jlab.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+jlab-s2i2:
+	pdflatex 20170110-s2i2-jlab.tex
+	pdflatex 20170110-s2i2-jlab.tex
 
 gdb-dec2016:
 	pdflatex 20161214-gdb-dec2016.tex
