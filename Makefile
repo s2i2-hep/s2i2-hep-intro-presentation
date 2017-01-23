@@ -20,6 +20,11 @@ clean:
 	rm -fR 20161214-gdb-dec2016.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20170110-s2i2-jlab.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20170113-diana-s2i2-cwp-padova.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20170123-hsf-workshop-intro-sdsc.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+hsfsdsc-intro:
+	pdflatex 20170123-hsf-workshop-intro-sdsc.tex
+	pdflatex 20170123-hsf-workshop-intro-sdsc.tex
 
 padova-s2i2:
 	pdflatex 20170113-diana-s2i2-cwp-padova.tex
