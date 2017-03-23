@@ -21,6 +21,11 @@ clean:
 	rm -fR 20170110-s2i2-jlab.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20170113-diana-s2i2-cwp-padova.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20170123-hsf-workshop-intro-sdsc.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20170323-cwp-intro-fnal.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+cwp-fnal-intro:
+	pdflatex 20170323-cwp-intro-fnal.tex
+	pdflatex 20170323-cwp-intro-fnal.tex
 
 hsfsdsc-intro:
 	pdflatex 20170123-hsf-workshop-intro-sdsc.tex
