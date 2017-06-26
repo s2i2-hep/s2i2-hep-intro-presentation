@@ -22,6 +22,27 @@ clean:
 	rm -fR 20170113-diana-s2i2-cwp-padova.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20170123-hsf-workshop-intro-sdsc.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20170323-cwp-intro-fnal.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20170404-cwp-intro-cms-week.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20170501-s2i2-hep-cs-princeton-intro.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20170501-s2i2-hep-cs-princeton.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20170622-hsf-annecy-intro.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+
+hsf-annecy-intro:
+	pdflatex 20170622-hsf-annecy-intro.tex
+	pdflatex 20170622-hsf-annecy-intro.tex
+
+s2i2-hep-cs-princeton-intro:
+	pdflatex 20170501-s2i2-hep-cs-princeton-intro.tex
+	pdflatex 20170501-s2i2-hep-cs-princeton-intro.tex
+
+s2i2-hep-cs-princeton:
+	pdflatex 20170501-s2i2-hep-cs-princeton.tex
+	pdflatex 20170501-s2i2-hep-cs-princeton.tex
+
+cwp-apr2017-cmsweek:
+	pdflatex 20170404-cwp-intro-cms-week.tex
+	pdflatex 20170404-cwp-intro-cms-week.tex
 
 cwp-fnal-intro:
 	pdflatex 20170323-cwp-intro-fnal.tex
