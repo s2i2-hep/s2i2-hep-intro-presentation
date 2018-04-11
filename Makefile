@@ -27,6 +27,11 @@ clean:
 	rm -fR 20170501-s2i2-hep-cs-princeton.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20170622-hsf-annecy-intro.{aux,snm,log,nav,toc,out,pdf,vrb}
 	rm -fR 20170823-s2i2-at-acat-intro.{aux,snm,log,nav,toc,out,pdf,vrb}
+	rm -fR 20180410-s2i2-hep-at-urssi.{aux,snm,log,nav,toc,out,pdf,vrb}
+
+s2i2-hep-urssi:
+	pdflatex 20180410-s2i2-hep-at-urssi.tex
+	pdflatex 20180410-s2i2-hep-at-urssi.tex
 
 acat17-s2i2:
 	pdflatex 20170823-s2i2-at-acat-intro.tex
